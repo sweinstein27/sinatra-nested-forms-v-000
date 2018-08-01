@@ -1,6 +1,8 @@
 class Pirate
   attr_accessor :name, :weight, :height
 
+  PIRATES = []
+
   def initialize (name, weight, height)
     @name=name
     @weight=weight
@@ -8,6 +10,6 @@ class Pirate
   end
 
   def self.all
-    PIRATE
+    PIRATES
   end
 end
